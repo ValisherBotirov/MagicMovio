@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #1a4a77;
+  padding: 16px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header--logo {
+  color: #fff;
+  font-size: 34px;
+}
+
+.header--flex {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header--link__group {
+  justify-content: center;
+  display: flex;
+}
+
+.header--link {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.header--link:not(:last-child) {
+  margin-right: 40px;
+}
+
+.video {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  z-index: -1;
+  background-image: linear-gradient(#000000b6);
+}
+
+.header--search {
+  z-index: 1;
+  width: 360px;
+  height: 40px;
+  background-color: #ffffffc3;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  padding: 0 24px;
+  font-size: 18px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+.box--movios {
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  padding: 40px 60px;
+  display: grid;
+}
+
+.movio--img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.movio--info {
+  width: 100%;
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.movio--img:hover ~ .movio--text {
+  opacity: 1;
+  background-color: #000000dc;
+  transform: translateY(-186px);
+}
+
+.movio--text {
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  padding: 4px 10px;
+  line-height: 1.4;
+}
+
+.type {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
